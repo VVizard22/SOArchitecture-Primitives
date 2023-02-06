@@ -1,0 +1,17 @@
+{
+  "name": "com.scriptableobjectarchitecture.primitives",
+  "version": "1.0.1",
+  "displayName": "Primitive types for ScriptableObject Videogame Architectures",
+  "description": "This is a package that contains the base classes to adapt \na game to an architecture based on scriptableobjects",
+  "unity": "2018.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "RoboRyan"
+  },
+  "type": "template"
+}
