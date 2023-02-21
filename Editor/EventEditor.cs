@@ -10,6 +10,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Events
 {
+#if UNITY_EDITOR
     [CustomEditor(typeof(GameEvent), editorForChildClasses: true)]
     public class EventEditor : Editor
     {
@@ -24,4 +25,5 @@ namespace SOArchitecture.Events
                 e.Raise();
         }
     }
+#endif
 }

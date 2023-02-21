@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Variables
 {
+#if UNITY_EDITOR
     [CustomPropertyDrawer(typeof(Vector2Reference))]
     public class Vector2Drawer : PropertyDrawer
     {
@@ -58,4 +59,5 @@ namespace SOArchitecture.Variables
             EditorGUI.EndProperty();
         }
     }
+#endif
 }

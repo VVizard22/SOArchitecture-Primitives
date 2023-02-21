@@ -10,6 +10,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Variables
 {
+#if UNITY_EDITOR
     [CustomPropertyDrawer(typeof(FloatReference))]
     public class FloatReferenceDrawer : PropertyDrawer
     {
@@ -65,4 +66,5 @@ namespace SOArchitecture.Variables
             EditorGUI.EndProperty();
         }
     }
+#endif
 }
