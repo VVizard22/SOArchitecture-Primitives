@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Variables
 {
-    [CreateAssetMenu(menuName = "SOVariables/Vector2Variable")]
+    [CreateAssetMenu(menuName = "SOVariables/Vector3Variable")]
     public class Vector3Variable : ScriptableObject
     {
 #if UNITY_EDITOR
