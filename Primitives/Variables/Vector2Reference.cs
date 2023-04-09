@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Variables
 {
-    [Serializable(menuName = "SOVariables/Vector2Reference")]
+    [Serializable]
     public class Vector2Reference
     {
         public bool UseConstant = true;
