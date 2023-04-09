@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Variables
 {
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "SOVariables/FloatVariable")]
     public class FloatVariable : ScriptableObject
     {
 #if UNITY_EDITOR

@@ -9,7 +9,7 @@ using System;
 
 namespace SOArchitecture.Variables
 {
-    [Serializable]
+    [Serializable(menuName = "SOVariables/FloatReference")]
     public class FloatReference
     {
         public bool UseConstant = true;

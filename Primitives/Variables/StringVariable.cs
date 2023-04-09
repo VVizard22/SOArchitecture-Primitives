@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Variables
 {
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "SOVariables/StringVariable")]
     public class StringVariable : ScriptableObject
     {
         [SerializeField]

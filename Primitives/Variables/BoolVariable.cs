@@ -3,7 +3,7 @@
 
 namespace SOArchitecture.Variables
 {
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "SOVariables/BoolVariable")]
     public class BoolVariable : ScriptableObject
     {
         [SerializeField]
