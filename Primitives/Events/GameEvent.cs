@@ -10,7 +10,7 @@ using UnityEngine;
 
 namespace SOArchitecture.Events
 {
-    [CreateAssetMenu(menuName = "SOVariables/GameEvents")]
+    [CreateAssetMenu]
     public class GameEvent : ScriptableObject
     {
         /// <summary>
